@@ -18,8 +18,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "node-sass": "^4.12.0",
-    "parcel-bundler": "^1.12.3",
-    "sass": "^1.21.0"
+    "parcel-bundler": "^1.12.3"
   }
 }
