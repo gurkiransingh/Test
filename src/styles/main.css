@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.container .css-task-container {
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1em;
+    place-items: center center;
+    background: linear-gradient(to bottom, #28343b 0%,#b5bdc8 100%);
+}
+
+.container .css-task-container .modal-container {
+    width: 60vw;
+    background: #fff;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.container .css-task-container .modal-container header {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 2%, rgba(71,0,0,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+}
+
+.container .css-task-container .modal-container header > p {
+    color: #fff;
+    width: 10%;
+    margin: 0 1em;
+}
+
+.container .css-task-container .modal-container header > div {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.container .css-task-container .modal-container header > div p {
+    color: #bbb;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-left: 1px solid #bbb;
+}
+
+.container .css-task-container .modal-container header > div p:first-child {
+    background: radial-gradient(ellipse at center, rgba(169,3,41,1) 0%, rgba(147,2,35,1) 51%, rgba(143,2,34,1) 59%, rgba(109,0,25,1) 100%);
+
+}
+
+
+.container .css-task-container .modal-container header > div p:hover {
+    color: white;
+}
+
+.container .css-task-container .modal-container header > div p:active {
+    color: white;
+}
+
+.container .css-task-container .modal-container  h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 1em 1em;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container .css-task-container .modal-container > div  p {
+    margin: 0 1em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    color: #4A4D4C;
+}
+
+.container .css-task-container .modal-container div .map {
+    margin: 0 1em;
+    font-size: 1em;
+}
+.container .css-task-container .modal-container div .map .pair {
+    display: flex;   
+    margin-bottom: 1.5em;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container .css-task-container .modal-container div .map .pair span:first-child {
+    width: 30%;
+    color: #4A4D4C;
+}
+
+.container .css-task-container .modal-container div .map .pair span:nth-child(2) {
+    color: #848685;
+}
+
+.active {
+    background: #007C05;
+    padding: 0.2em;
+    color: white!important;
+    font-family: sans-serif;
+}
+
+table tbody td {
+    border: 1px solid black;
+}
+
+table td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:20px; 
+ }
+
+ table{ border:1px solid black ;  }
+
+ table tbody tr td.name {
+     cursor: pointer;
+     color: rgb(37, 37, 75);
+     text-decoration: underline;
+ }

@@ -1,0 +1,25 @@
+{
+  "name": "redhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test/**/*.js",
+    "start": "parcel src/index.html"
+  },
+  "author": "Gurkiran Singh",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.21.0"
+  }
+}
